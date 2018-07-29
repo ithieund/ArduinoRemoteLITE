@@ -1,5 +1,5 @@
 /*
-* Controls home devices with Arduino Remote LITE in Button Mode 
+* Controls home devices with Arduino Remote LITE in Button Mode via Bluetooth
 * Author: Top Hot Apps
 * Website: https://hotapps.top
 * Email: support@hotapps.top
