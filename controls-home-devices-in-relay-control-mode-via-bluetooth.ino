@@ -69,6 +69,7 @@ void setup() {
 void loop() {
   if (Serial.available()) {
     cmd = Serial.readString();
+    cmd.trim();
     Serial.println("Command: " + cmd);
 
     // Control Relay 1
