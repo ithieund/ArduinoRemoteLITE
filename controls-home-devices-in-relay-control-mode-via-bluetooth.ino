@@ -68,7 +68,7 @@ void setup() {
 // Repeats continuously after boot
 void loop() {
   if (Serial.available()) {
-    cmd = Serial.readString();
+    cmd = Serial.readStringUntil('\n');
     cmd.trim();
     Serial.println("Command: " + cmd);
 
