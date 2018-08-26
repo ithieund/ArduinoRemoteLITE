@@ -1,3 +1,11 @@
+/*
+* Arduino Bluetooth Car
+* Author: Top Hot Apps
+* Website: https://hotapps.top
+* Email: support@hotapps.top
+* This sketch runs with Arduino Remote LITE. Download: https://play.google.com/store/apps/details?id=it.hieund.arduino_remote_lite
+*/
+
 // Commands
 const char CMD_STOP = '0';
 const char CMD_FORWARD = 'w';
